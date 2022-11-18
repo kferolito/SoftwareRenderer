@@ -19,17 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\tinyrenderer-d0703acf18c48f2f7d00e552697d4797e0669ade\main.cpp" />
-    <ClCompile Include="..\tinyrenderer-d0703acf18c48f2f7d00e552697d4797e0669ade\model.cpp" />
-    <ClCompile Include="..\tinyrenderer-d0703acf18c48f2f7d00e552697d4797e0669ade\tgaimage.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="tgaimage.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\tinyrenderer-d0703acf18c48f2f7d00e552697d4797e0669ade\Makefile" />
+    <None Include="Makefile" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\tinyrenderer-d0703acf18c48f2f7d00e552697d4797e0669ade\geometry.h" />
-    <ClInclude Include="..\tinyrenderer-d0703acf18c48f2f7d00e552697d4797e0669ade\model.h" />
-    <ClInclude Include="..\tinyrenderer-d0703acf18c48f2f7d00e552697d4797e0669ade\tgaimage.h" />
+    <ClInclude Include="geometry.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="tgaimage.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
