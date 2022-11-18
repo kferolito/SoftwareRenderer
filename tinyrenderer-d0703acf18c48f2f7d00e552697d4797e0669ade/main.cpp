@@ -51,8 +51,6 @@ void line(int x1, int y1, int x2, int y2, TGAImage &image, TGAColor color)
             y += (y2 > y1 ? 1 : -1);
         }
     }
-
-    
 }
 
 int main(int argc, char** argv) 
